@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form class="form1" id="form">
+      <div class="title">
+        <h1>DOM Manipulation With Form</h1>
+        <h3>Now,Enter Tha Details Hear And Submit</h3>
+      </div>
+      <div class="main">
+        <label for="">First Name:</label>
+        <input type="text" autocomplete="off" required />
+
+        <label for="">Last Name:</label>
+        <input type="text" autocomplete="off" required />
+
+        <label for="">Email:</label>
+        <input type="email" autocomplete="off" required />
+
+        <label for="address">Address:</label>
+        <textarea autocomplete="off" name="" id="" required></textarea>
+
+        <label for="">PinCode:</label>
+        <input type="number" autocomplete="off" required />
+
+        <label for="">Gender:</label>
+        <input type="text" autocomplete="off" required />
+
+        <label for="">State:</label>
+        <input type="text" autocomplete="off" required />
+
+        <label for="">Contry:</label>
+        <input type="text" autocomplete="off" required />
+      </div>
+
+      <div class="title1">
+        <h3>Choos Foods You Like</h3>
+      </div>
+
+      <div class="main1">
+        <div class="radio-conrainer">
+          <div class="radio1">
+            <h4>Veg Food:</h4>
+            <label for="Pongal"
+              ><input
+                type="radio"
+                name="Veg Food"
+                id="Pongal"
+                value="Pongal"
+                required
+              />Pongal</label
+            >
+            <label for="Idly"
+              ><input type="radio" name="Veg Food" id="Idly" value="Idly"/>Idly</label
+            >
+            <label for="Dosa"
+              ><input type="radio" name="Veg Food" id="Dosa" value="Dosa" />Dosa</label
+            >
+          </div>
+
+          <div class="radio2">
+            <h4>Non Veg:</h4>
+            <label for="Chiken Fry"
+              ><input
+                type="radio"
+                name="Non veg"
+                id="Chiken Fry"
+                value="Chiken Fry"
+                required
+              />Chiken Fry</label
+            >
+            <label for="Fish Fry"
+              ><input type="radio" name="Non veg" id="Fish Fry" value="Fish Fry" required />Fish
+              Fry</label
+            >
+            <label for="Briyani"
+              ><input
+                type="radio"
+                name="Non veg"
+                id="Briyani"
+                value="Briyani"
+                required
+              />Briyani</label
+            >
+          </div>
+
+          <div class="radio3">
+            <h4>Fruits:</h4>
+            <label for="Apple"
+              ><input
+                type="radio"
+                name="Fruits"
+                id="Apple"
+                value="Apple"
+                required
+              />Apple</label
+            >
+            <label for="Banana"
+              ><input
+                type="radio"
+                name="Fruits"
+                id="Banana"
+                value="Banana"
+                required
+              />Banana</label
+            >
+            <label for="Orange"
+              ><input
+                type="radio"
+                name="Fruits"
+                id="Orange"
+                value="Orange"
+                required
+              />Orange</label
+            >
+          </div>
+        </div>
+
+        <div class="btn-container">
+          <button class="submit">submit</button>
+        </div>
+      </div>
+      <div id="history"></div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
